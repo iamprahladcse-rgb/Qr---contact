@@ -6,81 +6,101 @@
 <title>Prahlad Kumar</title>
 
 <style>
-*{margin:0;padding:0;box-sizing:border-box;}
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
 
 body{
-font-family:Arial,sans-serif;
-background:linear-gradient(135deg,#4facfe,#00f2fe);
+background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
 display:flex;
 justify-content:center;
 align-items:center;
-min-height:100vh;
-padding:20px;
+height:100vh;
 }
 
 .card{
-background:#fff;
-max-width:380px;
-width:100%;
+width:340px;
+background:white;
 border-radius:20px;
 padding:25px;
 text-align:center;
-box-shadow:0 10px 30px rgba(0,0,0,.25);
+box-shadow:0 10px 30px rgba(0,0,0,.3);
 }
 
-img{
+.card img{
 width:130px;
 height:130px;
 border-radius:50%;
 object-fit:cover;
-border:4px solid #2196F3;
+border:5px solid #0d6efd;
 margin-bottom:15px;
 }
 
 h2{
-margin-bottom:5px;
+color:#0d6efd;
+margin-bottom:8px;
 }
 
 p{
 color:#555;
-margin:5px 0;
-font-size:15px;
+margin:8px 0;
 }
 
-a{
+.btn{
 display:block;
 text-decoration:none;
-color:#fff;
-padding:15px;
-margin-top:15px;
-border-radius:12px;
-font-size:18px;
+background:#0d6efd;
+color:white;
+padding:12px;
+margin-top:12px;
+border-radius:10px;
 font-weight:bold;
+transition:.3s;
 }
 
-.pay{background:#28a745;}
-.wa{background:#25D366;}
-.mail{background:#007BFF;}
+.btn:hover{
+background:#084298;
+}
+
+.footer{
+margin-top:20px;
+font-size:13px;
+color:#777;
+}
 </style>
+
 </head>
 
 <body>
 
 <div class="card">
 
-<img src="IMG_20260720_210653.png" alt="Prahlad">
+<img src="IMG_20260720_210653.png" alt="Prahlad Kumar">
 
 <h2>Prahlad Kumar</h2>
 
-<p>📍 Fire Bricks, Mahabir Asthan, Kali Mandir, Kumardhubi</p>
-
 <p>📞 7004685364</p>
 
-<a class="pay" href="upi://pay?pa=csc.00@postbank">💰 Pay Now</a>
+<p>📧 iamprahlad.cse@gmail.com</p>
 
-<a class="wa" href="https://wa.me/917004685364">💬 WhatsApp</a>
+<p>💳 UPI: csc.00@postbank</p>
 
-<a class="mail" href="mailto:iamprahlad.cse@gmail.com">📧 Email</a>
+<p>📍 Fire Bricks, Mahabir Asthan,<br>Kali Mandir, Kumardhubi</p>
+
+<a class="btn" href="tel:7004685364">📞 Call Now</a>
+
+<a class="btn" href="https://wa.me/917004685364">💬 WhatsApp</a>
+
+<a class="btn" href="mailto:iamprahlad.cse@gmail.com">📧 Email</a>
+
+<a class="btn" href="upi://pay?pa=csc.00@postbank">💰 Pay Now</a>
+
+<div class="footer">
+Made with ❤️ by Prahlad Kumar
+</div>
 
 </div>
 
